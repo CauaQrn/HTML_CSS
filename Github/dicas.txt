@@ -22,4 +22,6 @@ No Github, voce pode trabalhar com equipes, e cada um terá seu própio reposit�
 
 ao criar um repositório no git, não deixar marcado a opção de deixar o código privado, só se voce não quiser compartilhar seu código.
 
+Para fazer alterações no seu projeto e atualizar, voce deve ir no github desktop, clicar no arquivo alterado, colocar um Titulo no Summary e Commitar. Logo após de um "Push Orign" e pronto! seu github está atualizado.
+
 
