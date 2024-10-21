@@ -24,4 +24,10 @@ ao criar um repositório no git, não deixar marcado a opção de deixar o códi
 
 Para fazer alterações no seu projeto e atualizar, voce deve ir no github desktop, clicar no arquivo alterado, colocar um Titulo no Summary e Commitar. Logo após de um "Push Orign" e pronto! seu github está atualizado.
 
+Para criar pastas, não é mais necessário criar diretamente no gerenciador de arquivos, voce pode criar no Github Desktop, do mesmo jeito quando vai criar um novo repositório:
+
+    File > New Repository >  Nome da pasta > Descrição > Local > inicializar com README > Licença MIT > Criar
+
+    
+
 
