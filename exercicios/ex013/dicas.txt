@@ -1,0 +1,1 @@
+Estilo Inline é muito confuso e da muito trabalho, não se deve usar, deixa o código poluido e ruim para alterações, então deve evitar usar o Inline, somente em situações especificas.

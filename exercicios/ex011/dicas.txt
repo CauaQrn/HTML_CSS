@@ -1,0 +1,7 @@
+ <!--Formatos MP4, M4V, WEBM e arquivos OGG são os tipos de arquivos suportados de sites-->
+
+ Videos hospedados localmente podem e vão consumir muito tráfego de dados, assim podendo pesar no bolso do cliente.
+
+ Se o vídeo do cliente estiver no youtube é muito melhor, pois o youtube é o segundo maior metodo de pesquisa, se ter tanto video local quanto no youtube, isso amplia ainda mais a abrangencia que o algoritmo do google irá dar, então use o compartilhar do video e incorporar.
+
+ Vídeos do youtube não puxam trafego do seu site, ele puxa do própio youtube, porém videos que vem do youtube QUALQUER pessoa pode procurar e achar.

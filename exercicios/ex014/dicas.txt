@@ -1,0 +1,5 @@
+Estilos locais são uteis quando voce irá usar somente em um documento, uma pagina, agora em situações de muitas paginas deixa de ser viavel, pois deverá aplicar o estilo em todas as paginas repetidamente, copiando e colando, e caso peça para mudar algo, terá que mudar em todas as paginas também.
+
+Os unicos problemas do estilo local são esses, Situações de muitas paginas e que geralmente o estilo é maior que o código html, então tem que ir abaixando até achar o código.
+
+Se os estilos que serão colocados ocuparem muito espaço do código, não usar mais estilos locais, usar externos. 

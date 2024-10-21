@@ -1,0 +1,42 @@
+height: Altura
+width: Largura
+
+inline-block = significa tudo na mesma linha.
+
+: = pseudoclasse
+
+pseudoclasse é relacionada ao estado de determinado elemento, se ele está ativo, marcado, vazio, habilitado etc.
+
+hover: ao passar o mouse em cima acontece tal coisa
+
+ex: div: hover{
+    background: yellow;
+}
+
+ao passar o mouse em cima o background da div ficará amarelo. também é possivel fazer animações.
+
+se colocar "div >" quer dizer que é algo que esta dentro de uma div, que é "filho" ele não irá mexer em nada que está fora, só o que esta dentro da div.
+
+exemplo: div > p {
+    display: none; (os paragrafos que estão dentro de div ira sumir, ficará escondido.)
+}
+
+para o texto escondido aparecer podemos juntar os dois primeiros exemplos:
+
+div: hover > p {
+    display: block; (mostrar)
+    color: white;
+    background-color: red;
+    width: 300px;
+}
+
+no exemplo acima após passar o mouse em cima da div, o texto escondido aparece. é o inicio de um "menu" por exemplo, quando se passa o mouse em cima de um elemento e as informações aparecem.
+
+pseudoclasse = :
+pseudoelemento = ::
+
+# = id
+. = class
+: = pseudoclasse
+:: - pseudo-elemento
+>  = children

@@ -1,0 +1,29 @@
+em HTML é id = em CSS é #
+em HTML é class = em CSS é .
+
+quando for declarar o id no css voce pode colocar um nome para identificar a classe e depois o nome da classe.
+
+Ex: h1#principal (h1 = nome, #principal = classe) 
+    titulo#principal 
+
+Dentro de um mesmo documento só pode um ID com o mesmo nome.
+Quando se tem 2 elementos e precisa aplicar a mesma configuração para ambos, se usa o "class"
+
+ou seja ID é unico, classe multiplos.
+
+De nomes para suas classes de acordo com a funcionalidade.
+
+é possivel colocar mais de uma classe dentro de um class, basta colocar o nome da classe ao lado do primeiro, não necessita de virgula
+
+ex: <h2 class="avançado destaque"></h2> 
+
+neste caso existe a classe avançado juntamente de outra classe criada que é a destaque.
+
+é possivel colocar id e class em um seletor também
+
+ex: <h1 id="principal" class="destaque"></h1> 
+
+porém o id sobrepoe o class, então caso tenha um background no id principal, ele estara em cima do class (para ver o class tire o background do id).
+
+existe uma hierarquia, o que estiver em cima prevalece primeiro.
+

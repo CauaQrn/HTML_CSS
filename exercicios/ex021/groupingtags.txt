@@ -1,0 +1,10 @@
+"header" é o cabeçalho, que é a apresentação do site.
+"main" é o conteudo	principal do site.
+"footer" é o rodapé.
+"nav" serve para colocar seus links.
+"section" sessão
+"article" artigo
+"aside" serve para colocar o nome do autor por exemplo.
+
+para organização de conteúdo, deve-se usar estes elementos, ao invés de criar uma "div" para tudo, pois é mais semantico, faz mais sentido e da mais sentido as coisas. Todos eles são como se fossem uma div, mas são div's especiais, são "Grouping Tags".
+

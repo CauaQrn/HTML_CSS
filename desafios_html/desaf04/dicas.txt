@@ -1,0 +1,42 @@
+Existe uma pseudo-classe chamada :root que é a raiz da arvore do seu código, dentro dela voce consegue criar variaveis. Tudo o que for colocado dentro do root, será aplicado no documento inteiro.
+
+Toda variável em CSS tem que começar com "--" ex: --cor0: #ffff;
+
+é muito util para quando a paleta de cores é alteravel, que pode sofrer mudanças. Usando variaveis, caso precise trocar a cor, todos os elementos que estiverem usando a variável mudarão de cor. Normalmente voce teria que colocar o novo RGB em cada elemento, com variáveis só basta mudar uma vez e o resto irá automático.
+
+um ponto "./" significa na pasta atual, "../" significa a pasta anterior (volta uma pasta).
+
+o "*" seleciona TODOS os elementos do CSS, como se fosse o "selecionar tudo" do pc, e tudo oq colocar lá será aplicado para todos os elementos.
+
+Para evitar quebras de conteudo ou linhas, se deve usar o max width e min width.
+
+transition serve para duração de quanto tempo o hover irá durar ao passar o mouse.
+
+line-height serve para altura entre as linhas, os espaçamentos entre as linhas.
+
+para mexer na posição de listas etc, se usa o list-style-position: inside (ou outros)
+
+coluns serve para dividir a lista em quantas colunas voce quiser.
+
+'\2714\00A0\00A0' código do emoji de check pego no emojipidia, porém não é compativel com todos os navegadores. Sendo o primeiro o código e os "00A0" os espaços.
+
+margin negativa é para formatar por fora (sem ser negativa formata dentro da box e perde o border radius)
+
+para mover um video do youtube por exemplo, de posição, devemos coloca-lo dentro de uma div,criar uma classe (ou id se for somente um video que irá colocar no site) e fazer as configurações que estão no "style.css"
+
+div.video { (Box que sera criada da div) - 
+    background-color: var(--cor5);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 56.6%;
+
+    position: relative;
+}
+
+div.video > iframe { (box do iframe video pego do youtube)
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}

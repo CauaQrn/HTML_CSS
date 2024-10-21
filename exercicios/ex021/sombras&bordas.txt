@@ -1,0 +1,9 @@
+para colocar sombra, se usa o "box-shadow",  e a ordem de elementos é: 1 - deslocamento horizontal, vertical, blur, splet, cor. 
+
+o padrão é
+
+1px 1px 1px 1px 
+
+tem insite e outside, que são sombras pra fora ou para dentro.
+
+border-radius para arredondar os cantos do retangulo. Podemos usar px e %.

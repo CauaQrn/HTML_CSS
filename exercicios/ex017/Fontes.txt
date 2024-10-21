@@ -1,0 +1,71 @@
+Fontes serifadas são fontes que possuem pequenos traços e prolongamentos que ocorrem no fim do pé da letra ou nas pontas finais.
+
+ja as sans-serif são as que não tem prolongamentos e traços e nenhum lugar da letra.
+
+Fontes mais famosas usadas: Arial (Não serifada), Verdana (serifada) e Helvetica (n/serifada)
+
+na "font-family: Arial, Helvetica, sans-serif" ele primeiro tenta achar no dispositivo a fonte Arial, depois Helvetica e por ultimo sans-serif. Então esse tipo de declaração é importante pois é uma configuração segura.
+
+Se colocar "fonte-family: sans-serif" ou "serif" ou "monospace" é garantido o funcionamento, pois todos os dispositivos tem esses tipos de fontes, no caso o navegador irá escolher uma fonte aleatória com algum dos tipos.
+
+No site W3Schools font safe combination, voce pode achar as Configurações de fontes seguras, que combinam entre si igual o exemplo acima.
+
+Medidas "pt" e "pc" não devem ser usadas em material que será exibido em telas.
+
+na "font-size" só use somente as Medidas de "px" e "em"
+
+16px é o tamanho padrão das fontes.
+
+pt é o tamanho que é usado nos editores, por exemplo no Word quando vai escolher o tamanho da letra, voce esta escolhendo o pt(ponto) tamanho. Deve ser usado quando irá ser imprimido, não em sites.
+
+o "em" é o tamanho relativo ao tamanho natural do "px"
+
+16px = 1em
+32px = 2em
+
+o recomendado é usar mais o "em", pois quando o site estiver sendo mostrado em varios dispositivos, será mais facil pois ele trabalha de acordo com a porcentagem do numero padrão. Mas também pode usar o px normalmente.
+
+weight = Peso da letra
+width = Largura
+height = Altura
+
+tipos de fontes-weight: lighter (mais leve), normal, bold(mais forte), bolder(mais forte ainda)
+
+também é possivel usar por numeros de 100-900, segurando ctrl + space, voce consegue ver as opcões. 
+
+fontes como Arial, Verdana, Times new Roman, não possuem tantas variações de peso, Nem todas tem.
+
+
+font-style: escolhe se a letra será em italico ou normal.
+
+então font-weight, para colocar em negrito e style para colocar em italico.
+
+para colocar o sublinhado se usa o "text-decoration" e "underline".
+
+shorthand font junta todas Configurações de fontes para não precisar colocar uma por uma, porém em ordem que é:
+
+  font-style -> font-weight -> font-size -> font-family
+
+  que no final quando colocar deverá escrever:
+
+  font: italic bolder 3em 'Work Sans', sans-serif;
+
+  não necessita ser igual as configurações, configure do jeito que preferir, se não quiser italico coloque 'normal', se não quiser bolder coloque 'ligther'. Não é necessário colocar todas as propriedades também, porém deve ser na ordem citada antes, exemplo:
+
+  font: lighter 3 em 'Work-Sans'
+
+  Para alinhar textos se usa o "text-align" que contém os seguintes alinhamentos:
+
+   - center (alinha ao meio)
+   - right (esquerda)
+   - left (direita)
+   - justify (direita e esquerda justificado)
+
+  Para colocar um espaço antes do paragráfo, isso se chama "font-indent"
+
+  font-indent: 20px;
+
+
+
+
+ 

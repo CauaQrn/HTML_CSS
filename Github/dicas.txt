@@ -1,0 +1,23 @@
+Um repositório é um local aonde voce guarda coisas. Existem repositórios que serão feitos no seu computador e existem os online.
+
+O gerenciador de versões serve para quando voce fizer um projeto criar varias versões dele, então, quando voce não gostar de algo q voce fez na versão atual, o gerenciador de versões tem as versões antigas do projeto para voce voltar.
+
+um dos Gerenciador de versões é o "Git", que é um software livre, não é pago e foi criado pelo criador do linux.
+
+Duas situações que podem acontecer:
+
+Mesmo com o git na maquina, caso seu computador pife, o hd seja prejudicado e etc, voce irá perder TUDO. 
+
+Se quiser mostrar seu projeto para outra pessoa com outro computador, voce teria que zipar todos seus arquivos e enviar para pessoa, mas isso não é prático, as vezes a pessoa pode nem saber como lidar com os arquivos.
+
+Para resolver essas situações usamos o GitHub. Enquanto o Git salva as versões, o Github salva essas versões na nuvem, o Git e Github são entrelaçados podemos dizer assim. O Github não foi criado pelo mesmo criador do Git.
+
+Para mostrar seu projeto para outra pessoa, devemos hospedar em um servidor, que é o Github.
+
+a caixinha de gerenciador de versoes, não deve ser chamado de Git, chamamos de "Repositório Local". Então quando dizemos de repositório local, é o Git instalado em sua maquina., são repositórios que ficarão no seu computador. Nele será guardado códigos de várias linguagens.
+
+e o Github, chamaremos de "Repositório Remoto". Sempre lembre de pegar seu repositório local e jogar para o remoto.
+
+No Github, voce pode trabalhar com equipes, e cada um terá seu própio repositório local, nada sera alterado originalmente em seu código. Eles podem atualizar também o mesmo repositório remoto.
+
+

@@ -1,0 +1,25 @@
+<h1>Reproduzindo Áudio</h1>
+<p>Vamos aprender a reproduzir audios em HTML5</p>
+<audio src="midia/miss-u.mp3.mp3"controls autoplay ></audio>  
+
+    <audio é a forma rapida e facil de adicionar um audio mp3 no site, controls é para aparecer o controle de play, o autoplay geralmente reproduz o som sozinho, mas nesta função de audio, talvez não funcione por causa do navegador-->
+
+    <!--os tipos de arquivos de audio que funcionam são: MP3 (mpeg), OGG e WAV--> 
+
+    <!--picture serve para dimensionar as imagens dinamicamente escolhendo os tamanhos pelo max-width-->
+
+    <!--A base é a img que é o tamanho padrão que voce quer deixar (no caso foi a foto_g) e acima dela são os source na ordem de tamanho (pequena, média, grande) -->  
+
+     <!--A ordem que voce colocar as source o site irá tentar executar o audio dentre os tipos ranqueados, irá tentar carregar o mp3 entre as opções, e caso não consiga carregar aparecera o <p>-->
+
+    <!--srcset não funciona o ctrl+espaço, então deve colocar o caminho certo na mão.-->
+
+    <!--preload auto não é recomendado. pois ele só irá funcionar depois de toda a pagina carregar e o arquivo também, então se o mp3 for muito pesado será ruim-->
+
+    <!--Metadata mostra as informações como data, duração etc-->
+
+    <!--None não carrega nada, somente quando o usuario apertar no controle-->
+
+    <!--loop é para quando chegar ao final do audio repetir automatico a musica-->
+
+    <!--Evitar arquivos wav pois são muito pesados, se não seu site ficará pesado. Para navegação não usar, para downloads ok-->

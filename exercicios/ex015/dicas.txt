@@ -1,0 +1,7 @@
+chamar um link para um arquivo css separado é a melhor escolha para sites com muitas paginas, o estilo será aplicado em todas as paginas, basta colocar o link do arquivo css e a magica acontece. Então quando precisar replicar os estilos em outras paginas, basta criar um arquivo css, colocar os parametros e os estilos que voce quer e chamar um link no arquivo html.
+
+Tudo que começar com @ é uma regra (@charset "UTF-8" é para o estilo não ignorar os acentos)
+
+também é possivel adicionar estilos extras criando outros arquivos css, e colocando o link caso voce queira mudar algo em alguma pagina especifica. o código irá pegar da mesma forma, é possivel colocar varios "links" no código.
+
+No mesmo arquivo podemos usar o CSS Interno, Externo e Inline. Sendo situações especificas, pois mudando na primeira pagina não irá mudar na segunda como no exemplo que está no código.

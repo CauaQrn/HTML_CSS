@@ -1,0 +1,81 @@
+Modelo de caixas é um conjunto para organizar as partes do seu site. tudo oq é exibido na tela é exibido em forma de caixa.
+
+exemplo: <h1> Olá, mundo!</h1>
+
+quando o site for aberto ele estará reservando uma caixa com a escrita Olá mundo.
+
+em html pode se ter varias caixas dentro de outras. e quando se coloca um elemento dentro do outro se chama aninhamento (forma de ninho).
+
+uma caixa tem um tamanho que é especificado com duas medidas importantes: height e width.
+
+podemos traçar uma linha nesta box, e isso chamamos de 'border', é uma linha que circunda nosso conteudo.
+
+a linha pode estar muito junta da caixa, muito apertada, e para isso usamos o 'padding', que vai aconchoar ou preencher esta caixa, criando um espaço em baixo da border, assim desgrudando um pouco a borda do conteudo.
+
+Agora um espaço que podemos ter externo é o 'margin' que fica acima de border, conteudo e padding, é um espaço externo, todas as coisas estão dentro dele.
+
+fora da borda também podemos criar um traçejado acima dela, que se chama 'outline' que pode ser traduzido como 'contorno' ou 'traçado'.
+
+Anatomia de uma caixa:
+
+margin -> outline -> border -> padding -> box.
+
+não é necessário colocar todos obviamente.
+
+Existem dois tipos de Caixas.
+
+box-level: se inicia em uma linha nova e sempre ocupa a largura total da tela. sempre será 100% do viewport, e irá pular para próxima linha para continuar o conteúdo.
+
+inline-level: não pula para próxima linha, cria uma box ao lado com o tamanho exato do seu elemento, e depois que termina ele não quebra a linha, ele continua o conteúdo na mesma linha (inline)
+
+Exemplo de boxlevel: <div> - se usa quando quer quebrar linha, criar um box abaixo que ocupa a largura inteira, e continuar o conteúdo.
+
+Exemplo de inline-level: <span> - quando quiser um elemento e o próximo elemento esteja do lado.
+
+mais exemplos de box-level: h1 - h6, p, main, header, nav, article, aside, footer, form, video.
+
+inline-level: a, code, small, strong, em, sup - sub, label, button, input, select.
+
+para ver o conteudo da box, clique em inspecionar no chrome, e la vc verá margin, border, padding e box principal.
+
+user-agent é sempre o navegador que está exibindo meu conteúdo.
+
+quando o espaço de alguma das box estiverem com " - ", é pq não tem. por ex: 
+
+margin 21.440 (por padrão é colocado essa margem)
+border -
+padding - 
+ 678x37 
+
+ ou seja, não tem borda nem padding.
+
+ é possivel testar os tamanhos pelo devtools (parte que tem os styles na box) também, alterando as funções ou height e width por exemplo.
+
+ o padding se recomenda a ordem: 
+
+1 - padding-top,  2- padding-right, 3 - padding-botto, 4 - padding-lef
+
+margin: auto; centraliza a caixa no meio.
+
+se as 4 medidas forem iguais em uma shorthand, coloque só uma.
+
+ex: padding: 10px 10px 10px 10px;
+
+    padding: 10px;
+
+    padding: 10px 20px
+
+podemos colocar somente 2 tambem, o valor do primeiro será de cima e o de baixo, e o segundo valor será esquerda e direita. (10 20 10 20)
+
+também é possivel transformar box-level em inline, e inline em box-level.
+
+exemplos:
+    h1 {
+        display: inline;
+    }
+
+    a {
+        display: block;
+    }
+
+amboa irão aparecer da forma que cada um funciona. e exite o inline-block que voce consegue colocar altura largura etc.

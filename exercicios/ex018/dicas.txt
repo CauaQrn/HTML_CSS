@@ -1,0 +1,33 @@
+@import é uma regra do mesmo jeito que @charset, e todas as regras devem estar acima dos seletores e embaixo do <style>.
+
+usar o google fonts para pegar fontes e importar, procurar a fonte, ir em "get font", "get embed code" e mudar de <link> para @import, copiar o import e colar no seu código.
+
+Caso va usar mais de 1 fonte no site, escolha 4 familias de fontes no máximo. 
+
+quando for baixar uma fonte, deve ser procurado na glifo da fonte se ela tem as acentuações.
+
+para usar fontes baixadas, necessita criar uma regra chamada "@font-face", que funciona do seguinte jeito:
+
+@font-face{
+    font-family: 
+    src: url('nome do arquivo.otf') format('opentype')
+}
+
+caso precise colocar mais de um tipo, basta colocar a virgula e novamente:
+
+    src: url('nome do arquivo.otf') format('opentype'), src: url('nome do arquivo.ttf') format('truetype')
+
+Assim o navegador irá por ordem tentar encontrar o tipo da fonte e carregar, o nome deve estar identico ao que está na pasta, com espaços etc.    
+
+Tipos de format():
+    -opentype (otf)
+    - truetype (ttf)
+    - embedded-opentype
+    - truetype-aat (Apple Advanced Typography)
+    - svg
+
+Para ficar mais facil jogue na pasta que está o código, crie uma pasta e jogue os arquivos ttf ou outros tipos lá e aplique no código. 
+
+Para extrair fontes de sites, va no chrome web store e adicione a extenção "Fonts Ninja" e use no seu chrome. ele não identifica as fontes que estão em imagens.
+
+Para extrair fontes de imagens, use o site WhatfontIs, fontsquirrel e myfonts. Não é certeza que irá pegar a fonte certa.

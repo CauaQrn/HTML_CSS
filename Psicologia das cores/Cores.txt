@@ -1,0 +1,54 @@
+Fundo preto e letra branca deve ser usado quando tem poucas informações, quando tem muitas se torna algo cansativo e massante.
+
+Fundo branco e letra preta é o mais comum.
+
+Cores Primárias de um circulo cromatico: Amarelo, vermelho e azul.
+
+Cores secundarias: Laranja, violeta e verde.
+
+Cores terciárias: toda cor terciária é a junção da cor primária e a secundaria, então deve ser escrito primeiro o nome da cor primária e depois a secundaria, exemplos:
+
+    1 - amarelo-esverdeado
+    2 - amarelo-alaranjado
+    3 - vermelho-alaranjado
+    4 - vermelho-arroxeado
+    5 - azul-arroxeado
+    6 - azul-esverdeado
+
+De forma grossa, são as cores "pastel".      
+
+Cores frias geralmente estão do lado esquerdo do circulo cromatico, e as cores quentes do lado direito.
+
+Cores complementares são aquelas cores que tem mais contraste entre si. Se voce estiver vendo um circulo cromatico, basta fazer uma linha reta e ver. Exemplo: Violeta e Amarelo, Vermelho e Verde, Azul e Laranja. (Nem todas as cores necessariamente irão ficar bonitas, elas só tem o contraste entre si.)
+
+Cores Análogas ao contrário das complementares, não tem contraste grande entre elas, mas são perceptiveis. Para encontrar as cores análogas deve-se ver as cores "vizinhas" que estão ao lado direito e esquerdo da cor.
+
+Cores Análogas e uma Complementar
+
+Basta pegar as cores vizinhas e da principal traçar a reta e pegar uma Complementar. Exemplo: Violeta (a), Roxo(a), Vinho(a) e Amarelo(C), ou Laranja(a), Vermelho alaranjado(a), Amarelo alaranjado(a) e Azul(c).
+
+Cores Análogas Relacionadas
+
+Pegar duas cores vizinhas, pular uma cor e pegar a terceira cor. Exemplo: Amarelo, Amarelo alaranjado, pula o laranja e pega o vermelho alaranjado. ou tambem do lado esquerdo das cores frias, amarelo e amarelo alaranjado, pula o verde e pega o verde mais escuro.
+
+Cores Intercaladas
+
+São parecidas com as Relacionadas, mas tem um contraste maior entre elas. Exemplo: Amarelo, pular amarelo alaranjado, pegar o laranja, pular o vermelho alaranjado e pegar o Vermelho (também serve do lado esquerdo)
+
+Cores Triádicas
+
+Irá pegar uma cor de referencia, irá pular 3 cores pegar a 2 cor, pular mais 3 e pegar a 3, formando um triangulo. Exemplo: Amarelo, Vermelho e Azul. 
+
+Cores em Quadrado
+
+Semelhante as Triádicas, porém são 4 cores e irá pular de 2 em 2 formando um "Quadrado" ou "Pipa"
+
+Cores Tetrádicas
+
+A Cor tetrádica deve ser escolhida pegando o complementar das cor que voce escolher, formando um retangulo, por exemplo: Vermelho e Verde, Azul e Laranja, formando um X e um retangulo.
+
+Monocromia
+
+Irá escolher somente uma cor e irá mudar a saturação e o brilho/luminosidade.
+
+Baixar Colorzilla no chrome web store.

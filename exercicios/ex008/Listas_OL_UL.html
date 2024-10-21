@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="C:\Users\Meu Computador\Desktop\HTML_CSS\favicon_estudy.ico" type="image/x-icon"> 
+    <title>Listas Ol UL</title>
+</head>
+<body>
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2>
+     <!--Serve para criar listas Ordenadas-->
+    <ol type="1"> <!--Type serve para escolher o tipo de lista. Podemos usar o Start para escolher de onde começar-->
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar Café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir pra facul</li>
+        <li>Almoçar</li>
+        <li>Trampar</li>
+        <li>Voltar pra casa</li>
+        <li>Jantar</li>
+        <li>Dormir</li>    
+    </ol> 
+    <h2>Listas não Ordenadas</h2>
+        <ul type="disc" > <!--Só tem o disc, circle e square-->
+            <li>Pão</li>
+            <li>Leite</li>
+            <li>Tomate</li>
+            <li>Alface</li>
+            <li>Manteiga</li>
+        </ul>
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5"> 
+            <!--aqui o start serviu para continuar a sequencia acima, o start conta por posição (ou seja no caso a letra "e" está em 5)-->
+            <li>Python</li>
+            <li>HTML/CSS</li>
+            <li>Javascript</li>
+            <li>PHP</li>
+        </ol>
+    </ol> 
+    <h2>Meus jogos favoritos</h2> 
+    <!--Segurar "ALT" para quando quiser trocar diversas coisas por outra ao mesmo tempo, Exemplo: trocar o ol por ul, coloque o cursor no ol e segure alt e clique e nos próximos também, e troque a letra-->
+    <ol>
+        <li>Detroit</li>
+        <li>Naruto</li>
+        <ul type="square">
+            <li>Naruto shippuden ultimate</li>
+        </ul>
+       <li>DBZ</li>
+       <ul type="square">
+            <li>Dragon Ball Sparking Zero</li>
+       </ul>
+
+        <li>CDZ</li>
+        <li>Nintendo</li>
+        <ul type="square">
+            <li>Mario Bros</li>
+            <ul type="circle">
+                <li>Mario Bros 3</li>
+                <li>Mario: Lost Levels</li>           <!---Como pode ver, é possivel criar lista dentro de listas-->
+            </ul>
+            <li>Bomberman</li>
+            <ul>
+                <li>Bomberman 4</li>
+                <li>Bomberman 5</li>
+            </ul>
+        </ul>
+        <li>Sonic</li>
+        <ul type="circle">
+            <li>Sonic Racing</li>
+            <li>Sonic Wolf</li>
+        </ul>
+    </ol>
+    <h2>Listas de Definições</h2>
+    <dl> <!--Lista de Definição-->
+        <dt>HTML</dt> <!--Termo-->
+        <dd>Linguagem de marcação para a criação do conteúdo de um site</dd> <!--Descrição-->
+        <dt>CSS</dt>
+        <dd>Lingaugem de Marcação para a criação do design de um site. </dd>
+        <dt>Javascript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+    </dl>
+
+</body>
+</html>
