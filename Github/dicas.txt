@@ -20,4 +20,6 @@ e o Github, chamaremos de "Repositório Remoto". Sempre lembre de pegar seu repo
 
 No Github, voce pode trabalhar com equipes, e cada um terá seu própio repositório local, nada sera alterado originalmente em seu código. Eles podem atualizar também o mesmo repositório remoto.
 
+ao criar um repositório no git, não deixar marcado a opção de deixar o código privado, só se voce não quiser compartilhar seu código.
+
 
