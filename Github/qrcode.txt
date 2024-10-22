@@ -1,0 +1,8 @@
+Para fazer as pessoas entrarem no seu site por QR code, basta acessar o site:
+
+qr-code-generator.com 
+
+colocar a url do site, escolher um estilo (de preferencia o sem estilo) e fazer o download. Pronto! assim basta escanear e seu site será visitado.
+
+
+

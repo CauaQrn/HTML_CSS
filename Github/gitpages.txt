@@ -1,0 +1,13 @@
+Para hospedar seu site basta ir na pasta que está os arquivos do exercicio (no exemplo foi usado o Projeto-android) copiar os arquivos principais como pasta de estilo, fontes, imagens e o arquivo html (android.html). Depois ir no  Github desktop, criar um novo repositório, não iniciar com README, escolher a licença e criar.
+
+Publique ele, desmarque o Keep this code private e publicar.
+
+Após publicar, vá na pasta que foi criada de "projeto-android" (nome do seu repositório) que está no seu computador, entre nela e terá dois arquivos, cole os arquivos que foram copiados anteriormente e renomeie o arquivo html para "index.html".
+
+Após isso, vá no desktop github, vá no comitar, de um titulo e clique no "Commit", logo após clique em "Push". 
+
+Vá no Github, clique no projeto, vá em setting e procure o github pages.
+
+Selecione o main, coloque None, Save, depois volte para o main novamente. espere e o link do site será exibido no canto superior.
+
+Uma  limitações do github pages, é que ele só funciona HTML, CSS e Javascript NA PAGINA. Ele não tem compatibilidade com mais nada além dessas linguagens citadas. Caso vá usar php, python, node js etc, ja se usa um serviço pago. (hostnet é um dos serviços)
