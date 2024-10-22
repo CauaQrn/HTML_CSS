@@ -29,5 +29,7 @@ Para criar pastas, não é mais necessário criar diretamente no gerenciador de 
     File > New Repository >  Nome da pasta > Descrição > Local > inicializar com README > Licença MIT > Criar
 
     
+Para clonar seu reposítório caso esteja em um pc diferente, vá no seu github, seu perfil, entrar no repositório e Clone Download, abrir com github desktop (git e github desktop devem estar instalados) e então crie uma nova pasta para colocar os reposítórios que são de outras pessoas, senão coloque na sua pasta de estudos atual.
 
+Vá no Github Desktop, new repository, e coloque o caminho da sua pasta criada ou atual.
 
