@@ -1,0 +1,22 @@
+quando voce coloca uma imagem no background-image: url()
+ela não faz parte do seu conteúdo em si, ela é simplismente uma imagem que está sendo exibida sem sentido semantico, ela tem um sentido de design.
+
+Então por enquanto temos 3 tipos de backgrounds:
+
+background-color;
+background-image: linear-gradient();
+background-image: url;
+
+Todo elemento de "caixa" pode receber uma imagem de fundo. e essa imagem de fundo se usa com a propiedade background-image: url().
+
+Cuidado com o tamanho fisico do arquivo e o tipo de imagem. Se sua imagem for de qualidade muito alta e o arquivo muito pesado, seu site ficará lento.
+
+Por padrão, a imagem no background-image sempre irá se repetir, mas existe uma propriedade chamada:
+
+background-repeat: no-repeat;
+
+isso faz a imagem não se repetir. Se torna util quando se utiliza com o repat-x ou repat-y.
+
+repeat-x: se repete a imagem somente deitada (horizontal)
+
+repeat-y:
