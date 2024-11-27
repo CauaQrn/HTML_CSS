@@ -19,4 +19,12 @@ isso faz a imagem não se repetir. Se torna util quando se utiliza com o repat-x
 
 repeat-x: se repete a imagem somente deitada (horizontal)
 
-repeat-y:
+repeat-y: se repete em pé (vertical)
+
+Todos partindo da posição padrão que é o canto superior esquerdo (é alterável).
+
+Para alterar o posicionamento usamos o background-position.
+
+que contém as seguintes propriedades: right center, right bottom, right top, left center, left bottom, left top, center center.
+
+primeiro deve começar pelo lado que irá ficar (right, left, center ou bottom) e depois, irá colocar em qual altura irá ficar (top, center ou bottom)
