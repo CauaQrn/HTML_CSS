@@ -1,0 +1,36 @@
+o posicionamento das box são por padrão relative.
+
+Para centralizar algo verticalmente, devemos fazer igual neste exemplo: 
+
+    #container {
+            position: relative;
+            height: 96vh;
+            padding: 10px;
+            background-color: purple;
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+        }
+
+        #conteudo {
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+        }
+
+Ou seja, o container deve ficar na posição relative e o coteúdo na posição absolute. Mexa o left e top pra 50% e faça uma transformação (transform) de -50%, -50%.
+
+porém um jeito mais atualizado é usar o:
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+Tudo isso dentro do elemento pai (container).
