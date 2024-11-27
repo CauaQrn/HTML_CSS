@@ -40,3 +40,35 @@ o padrão do background-size é ser 'auto';
 contain serve para que a imagem seja 100% exibida, independente do tamanho.
 
 cover significa cobrir, então ele vai cobrir a tela inteira com a imagem, e se adaptando aos tamanhos, porem, cortando a imagem. Ele ocupa 100% da viewport
+
+o background-attachment tem dois valores, o "scroll" e o "fixed".
+
+scroll: a imagem de fundo acompanha o scroll na tela e se move junto.
+
+fixed: a imagem fica fixa independente do scroll.
+
+uma combinação do background-size: cover; com o background-attachment: fixed; cria algo legal com isso.
+
+é possivel fazer uma shorthand com todos esses backgrounds, a ordem é:
+
+    color > image > position > repeat > [size] > attachment
+
+Exemplo: 
+
+    background-color: black;
+    background-image: url(imagens/wallpaper002.jpg);
+    background-position: center center;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+
+    shorthand:
+
+    background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed; 
+    background-size: cover;
+
+o background-size: cover acaba não funcionando dentro da shorthand, então devemos coloca-la fora. Pelas manual está certo o size ficar dentro da shorthand, porem por algum motivo não funciona, então temos que esperar resolverem.
+
+
+
+
