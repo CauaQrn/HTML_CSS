@@ -1,0 +1,3 @@
+Para mostrar algum site que vc fez que está hospedado no github, coloque:
+
+https://cauaqrn.github.io/HTML_CSS/exercicios/numero do exercicio/nomeDoArquivo.html

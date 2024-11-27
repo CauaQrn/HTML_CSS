@@ -28,3 +28,15 @@ Para alterar o posicionamento usamos o background-position.
 que contém as seguintes propriedades: right center, right bottom, right top, left center, left bottom, left top, center center.
 
 primeiro deve começar pelo lado que irá ficar (right, left, center ou bottom) e depois, irá colocar em qual altura irá ficar (top, center ou bottom)
+
+é importante escolher uma cor de fundo, pois no site imagens carregam mais lentamente, então primeiro irá carregar o conteúdo, então é melhor para caso a pessoa ja queira ir navegando, consiga e depois a imagem carrega.
+
+100vh é 100% da viewport, que é o espaço branco na pagina. ou seja, se vc colocar para algo ter o height: 100vw; o conteudo irá ocupar 100% da pagina.
+
+background-size aceita os valores: auto, px, contain e cover.
+
+o padrão do background-size é ser 'auto';
+
+contain serve para que a imagem seja 100% exibida, independente do tamanho.
+
+cover significa cobrir, então ele vai cobrir a tela inteira com a imagem, e se adaptando aos tamanhos, porem, cortando a imagem. Ele ocupa 100% da viewport
